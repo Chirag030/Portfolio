@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            MyPortfolio
+        </title>
+        <link rel="stylesheet" href="./css/style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+    <header class="menu">
+        <div class="menuitems">
+            <nav >
+                <div>
+                <a href="#Home">Home</a>
+                <a href="#Skills">Skills</a>
+                <a href="#Experience">Experience</a>
+                <a href="#Freelancer">Freelancer</a>
+                <a href="#Contact">Contact Me</a>
+                </div>
+        </nav>
+    </div>
+</header>
+    <section class="main-section" id="Home">
+            <div class="container">
+                
+
+                <div class="hero flex item-center justify-between">
+                    <div class="left flex-1 flex justify-center ">
+                         <img src='./images/man.png' alt="">
+                     </div>
+                
+                <div class="right flex-1">
+
+                
+                    <h6>Chirag patel</h6>
+                    <h1>I am an Enthusiastic <span>Developer</span></h1>
+                    <p>
+                        I develope many android applications using java and  web applications using PHP,PYTHON and ASP.NET. I like to gain knowledge of new technologies and like work with these.
+                        I attended many hackthons and many coding compitition where i got rank high or average.
+                    </p>
+                    <div class="btn1">
+                    <a href="#Contact">
+                        <button class="btn btn-secondary">Contact Me</button>
+                    </a>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="Skills" class="services">
+            <div class="container">
+                <h1 class="section-heading"><span>Technical </span>Skill</h1>
+                <p>These are my technical skills in which I have developed many projects and have minimum experience of 1 year.</p>
+                <div class="card-wrapper">
+                    <div class="card">
+                        <img src="./images/codeigniter.svg" alt="">
+                        <h2>CodeIgniter</h2>
+                        <p>CodeIgniter is an open-source software rapid development web framework, for use in building dynamic web sites with PHP.</p>
+                        <p>In my bachelor, I used CodeIgnitor framework in my final year project.</p>
+                    </div>
+                    <div class="card">
+                        <img src="./images/php-logo.svg" alt="">
+                        <h2>PHP</h2>
+                        <p>PHP is open source language which is used to especially for web development.</p>
+                        <p>I developed Examination hall seating arrangement automation system (EHSAAS).</p>
+                     </div>
+                    <div class="card">
+                        <img src="./images/android_.svg" alt="">
+                        <h2>Android application developer - JAVA</h2>
+                        <p>I developed android application for marking attendance. In this attendance taken based on scaning QR code.</p>
+                    </div>
+                    <div class="card">
+                        <img src="./images/asp-logo.svg" alt="">
+                        <h2>ASP.net</h2>
+                        <p>ASP.NET are server side technologies. Both technologies enable computer code to be executed by an Internet server.</p>
+                        <p>I developed web application for organizing and managing tournaments using ASP.net</p>
+                    </div>
+                    <div class="card">
+                        <img src="./images/Python_logo.svg" alt="">
+                        <h2>Python</h2>
+                        <p>I developed number guessing applicaton using Python.</p>
+                    </div>
+                    <div class="card">
+                        <img src="./images/javascript.svg" alt="">
+                        <h2>Javascript</h2>
+                        <p>I used javascript language embeded in most of the projects.</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <section id="Freelancer" class="freelancer">
+            <h1>Iam availabe for freelancer.</h1>
+            <p>We provide high stander clean website for your business Solutions</p>
+            <a href="#Contact">
+                <button class="btn btn-secondary">Contact Me</button>
+            </a>
+             </section>
+        <section id="Experience" class="services">
+            <div class="container">
+                <h1 class="section-heading"><span>Work </span> Experiance</h1>
+                
+                <section class="timeline-area">
+                    <div class="experience-list">
+                        <h2 class="company">Full stack Developer</h2>
+                        <h3>Amazon</h3>
+                        <h4>2020-Present</h4>
+                    </div>
+                    <div class="experience-list">
+                        <h2>Back-End Developer</h2>
+                        <h3>Uber</h3>
+                        <h4>2018-2020</h4>
+                    </div>
+                    <div class="experience-list">
+                        <h2>Font-End Developer</h2>
+                        <h3>TCS</h3>
+                        <h4>2017-2018</h4>
+                    </div>
+                </section>
+            </div>
+        </section>
+        <section id="Contact" class="contact">
+            <h2>Contact <span>Me </span></h2>
+            <h3>chiragptl919@gmail.com</h3>
+            <h4>+91-8200000004</h4>
+            <h3>Thank you for visiting my profile.</h3>
+        </section>
+        <script type="text/javascript">
+            window.addEventListener("scroll",function(){
+                var header=document.querySelector("header");
+                header.classList.toggle("sticky",window.scrollY>0);
+            })
+        </script>
+    </body>
+</html>
